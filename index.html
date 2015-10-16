@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="barcode.min.css">
     <script src="jquery.min.js"></script>
     <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
     <script src="app.js"></script>
 </head>
 
-<body>
+<body onload="onLoad()">
 
 
-    <div data-role="page">
+    <div data-role="page" >
 
         <div data-role="header" style="overflow:hidden;">
             <h1>Barcode Scanner</h1>
