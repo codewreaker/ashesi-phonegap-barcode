@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barcode Scanner</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="water-fire.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="barcode.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+
+    <div data-role="page">
+
+        <div data-role="header" style="overflow:hidden;">
+            <h1>Barcode Scanner</h1>
+            <a href="#" data-icon="gear" class="ui-btn-right">Options</a>
+            <div data-role="navbar">
+
+                <ul>
+
+                    <li><a href="#">One</a></li>
+
+                    <li><a href="#">Two</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
+        </div>
+        <!-- /header -->
+
+        <div role="main" class="ui-content">
+            <a href="#" class="ui-btn" data-theme="a" id="scan-btn">Scan</a>
+            <button class="ui-btn">Close</button>
+        </div>
+        <!-- /content -->
+
+        <div>
+            <label for="name">Output</label>
+            <input type="text" name="text" id="textDisplay" value="" />
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+    </div>
+    <!-- /page -->
+
+
+</body>
+
+</html>
